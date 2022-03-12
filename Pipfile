@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ftfy = "==6.0.3"
+regex = "==2019.12.20"
+tqdm = "==4.62.3"
+clip = {git = "https://github.com/openai/CLIP.git"}
+jellyfish = "==0.8.9"
+scipy = "==1.4.1"
+gensim = "==3.6.0"
+urllib3 = "==1.24.3"
+torch = "==1.7.1"
+torchvision = "==0.8.2"
+pillow = "==7.1.2"
+matplotlib = "==3.2.2"
+
+[requires]
+python_version = "3.8"
