@@ -3,6 +3,8 @@ This repository shares the source codes used in our ICLR 2022 paper, "Language-b
 evaluation based on semantic representations" by Lemesle*, Y., Sawayama*, M., Valle-Perez, G., Adolphe, M., Sauzéon, H., & Oudeyer, P. Y.
 (*equal contribution)
 
+Link to paper: https://arxiv.org/abs/2201.11014
+
 
 The source codes are to create the word-superimposed images
 from the image datasets (Cichy et al., 2016; Mohsenzadeh et al., 2019) 
