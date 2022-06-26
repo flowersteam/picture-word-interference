@@ -5,43 +5,41 @@ evaluation based on semantic representations" by Lemesle*, Y., Sawayama*, M., Va
 
 Link to paper: https://arxiv.org/abs/2201.11014
 
-
 The source codes are to create the word-superimposed images
 from the image datasets (Cichy et al., 2016; Mohsenzadeh et al., 2019) 
-and to reproduce the analysis results shown in the paper. 
-For the word labels, we used the MS-COCO (Lin et al., 2014) 
-and CIFAR-100 datasets (Krizhevsky et al., 2009). 
-We evaluated the pre-trained CLIP models (Radford et al., 2021) 
-by using our benchmark test. Please see more details in our paper. 
+and to reproduce the analysis results shown in the paper.
+For the word labels, we used the MS-COCO (Lin et al., 2014)
+and CIFAR-100 datasets (Krizhevsky et al., 2009).
+We evaluated the pre-trained CLIP models (Radford et al., 2021)
+by using our benchmark test. Please see more details in our paper.
 
 ![Schematic overview of our benchmark test](DOC/figure_1.png "overview")
 
 ## Requirements
 
 The required python libraries to run our codes in your local machine are
-summarized in Pipfile, managed by pipenv. 
+summarized in Pipfile, managed by pipenv.
 If you don't have pipenv, you can simply get it with ``pip install pipenv``.
-Then, run ``pipenv install`` to install the requirements. 
+Then, run ``pipenv install`` to install the requirements.
 
 ## Run in a local environment
 ### download datasets and run tests
 
 To test our benchmark test, you need to just run ``python main.py``.
-Then, the code will download the image and label datasets, 
-make word-superimposed images, and test a pre-trained CLIP model. 
+Then, the code will download the image and label datasets,
+make word-superimposed images, and test a pre-trained CLIP model.
 The evaluation data will be stored in the DATA directory.
 
-### Jupyter notebook Demo 
+### Jupyter notebook Demo
 
-Once the evaluation data is created, 
-you can check the output and make the figures using demo_evaluation.ipynb 
+Once the evaluation data is created,
+you can check the output and make the figures using demo_evaluation.ipynb
 and demo_rsa.ipynb
-
 
 ## Run in Google Colab
 
-ICLR2022.ipynb includes all the codes to run our benchmark test. 
-You can also test it on Google Colab without environment settings. 
+ICLR2022.ipynb includes all the codes to run our benchmark test.
+You can also test it on Google Colab without environment settings.
 
 ## Citation information of our paper
 
